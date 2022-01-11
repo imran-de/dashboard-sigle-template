@@ -12,3 +12,5 @@
   border-bottom: 1px solid red;
   margin: 0 60px;
 }
+
+::-webkit-calendar-picker-indicator { background: '/f073';content: '/f073'; }

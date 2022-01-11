@@ -1,0 +1,34 @@
+.attendence-header{
+    background-color: rgb(206, 6, 6);
+    border-radius: 5px;
+    padding: 5px 0;
+    align-items: center;
+}
+.attendence-header h2{
+    color: #fff;
+    font-size: 18px;
+}
+.record{
+    background-color: #fff;
+    color: rgb(206, 6, 6);
+    padding:2px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.att-profile-image-container{
+    position: relative;
+
+}
+.att-profile-image-container img{
+    width: 35px;
+}
+.att-profile-image-container i{
+    color: red;
+    position:absolute;
+    bottom: 5px;
+    right: 0px;
+}
+.name-container h3{
+    font-size: 17px;
+}
