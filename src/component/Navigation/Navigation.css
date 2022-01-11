@@ -1,0 +1,23 @@
+.menu i {
+    color: red;
+    font-size: 24px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.menu a:hover i{
+    color: black;
+}
+.profile{
+    position: relative;
+    border-radius: 25px; 
+}
+.profile img{
+    position: absolute;
+    left: 0;
+    top: 2px;
+    border: 1px solid red;
+}
+.profile span{
+    padding-left: 40px;
+    padding-right: 3px;
+}
