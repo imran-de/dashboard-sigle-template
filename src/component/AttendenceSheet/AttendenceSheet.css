@@ -32,3 +32,101 @@
 .name-container h3{
     font-size: 17px;
 }
+
+/* // */
+.fine{
+    font-size: 20px;
+    font-family: aller;
+}
+
+.per-fine{
+    display: flex;
+    width: 128px;
+    height: 33px;
+    border: 1px solid red;
+}
+
+.fee-counter{
+    text-align: center;
+    width: 95px;
+    height: 33px;
+}
+
+.upDown-arrow{
+    display: flex;
+    flex-direction: column;
+    width: 32px;
+    height: 31px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: red;
+}
+
+.up-arrow{
+    height: 15px;
+    margin: 0px;
+    color: white;
+    padding: 0px;
+}
+
+.down-arrow{
+    height: 15px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+hr{
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(255, 254, 254);
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    opacity: 0.85;
+}
+
+.disabled-button {
+    opacity: 0.6;
+}
+
+/* //calander */
+.arrow-sign{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+
+.attendence-span{
+    display: flex;
+    width: 220px;
+    height: 50px;
+}
+
+.attendence-span input {
+    padding-left: 15px;
+    text-align: left;
+    font-size: 13px;
+    height: 50px;
+    width: 220px;
+}
+
+.attendence-span span {
+    margin-left: -46px;
+    width: 46px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgb(220, 14, 14);
+    border: 1px solid red;
+}
+.input-border {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.fa-calendar-alt{
+    color: white;
+    font-size: 25px;
+}
