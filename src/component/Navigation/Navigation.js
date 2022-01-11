@@ -4,7 +4,7 @@ import './Navigation.css';
 
 const Navigation = () => {
     return (
-        <Navbar expand="lg">
+        <Navbar bg="light" expand="lg">
             <Container>
                 <Navbar.Brand className='text-uppercase fw-bolder' href="#home">Dutypedia</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
